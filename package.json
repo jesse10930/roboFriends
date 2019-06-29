@@ -2,12 +2,13 @@
   "name": "robofriends",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://jesse10930.github.io/roboFriends",
+  "homepage": "https://jesse10930.github.io/roboFriends/",
   "dependencies": {
     "react": "^16.8.3",
     "react-dom": "^16.8.3",
     "react-scripts": "2.1.5",
-    "tachyons": "^4.11.1"
+    "tachyons": "^4.11.1",
+    "gh-pages": "^2.0.1"
   },
   "scripts": {
     "predeploy": "npm run build",
@@ -25,8 +26,5 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ],
-  "devDependencies": {
-    "gh-pages": "^2.0.1"
-  }
+  ]
 }
