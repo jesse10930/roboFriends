@@ -1,3 +1,4 @@
+// array of objecst representing an api
 export const robots = [
   {
     id: 1,

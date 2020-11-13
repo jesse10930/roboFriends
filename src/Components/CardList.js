@@ -4,8 +4,8 @@ import Card from './Card';
 const CardList = ({ robots }) => {
 	return (
 		<div>
-			{
-				robots.map((user, i) => {
+			{/* map through robots array, return card comp for each entry */}
+			{robots.map((user, i) => {
 					return (
 						<Card 
 							key={i} 
@@ -14,8 +14,7 @@ const CardList = ({ robots }) => {
 							email={robots[i].email}
 							/>
 					);
-				})
-			}
+				})}
 		</div>
 	);
 }
